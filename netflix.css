@@ -1,0 +1,274 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+}
+body
+{
+    background-color: black;
+    color: white;
+}
+.header
+{
+    height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(./assest/harsh.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+.header>nav
+{
+    height:70px;
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 0;
+}
+.nav-logo
+{
+    width: 150px;
+    cursor: pointer;
+}
+.nav-buttons>button
+{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color:#fff;
+    padding:7px 20px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.nav-buttons>.language-btn
+{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.language-btn>img
+{
+    width: 10px;
+    margin-left: 10px;
+}
+.header-contant
+{
+    height:508px;
+    width:550px;
+    margin-top: 280px;  
+    height:300px;
+   
+}
+.header-contant>h1
+{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header-contant>h3
+{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header-contant>p
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.email-signup>input
+{
+    height:30px;
+    width:70%;
+    background: transparent;
+    border-radius: 3px;
+    border: 1px solid green;
+}
+.email-signup>button
+{
+    background: #db0001;
+    color:#fff;
+    border:0;
+    padding:7px 20px;
+    border-radius: 4px;
+    margin-bottom: 3px;
+}
+.arc 
+{
+    height:964px;
+    width:100%;
+}
+.features
+{
+   font-size: 22px;
+   height: 100%;
+   width:100%;
+   background-color: black;
+   padding: 50px 12%;
+}
+.row
+{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-col>h2
+{
+
+    font-size: 40px;
+    font-weight: 500;
+}
+.text-col>p
+{
+    font-size: 20px;
+}
+
+.row1
+{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-col1>h2
+{
+    font-size: 40px;
+    font-weight: 500;
+}
+.text-col1>p
+{
+    font-size: 22px;
+}
+.img-col1
+{
+    margin-top: 30px;;
+}
+
+
+.row2
+{
+    width:100%;
+    margin-left: 70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+}
+.text-col2>h2
+{
+    font-size: 50px;
+    font-weight: 500;
+}
+.text-col2>p
+{
+    font-size: 20px;
+}
+.img-col2
+{
+    margin-right: 60px;
+}
+section>h2
+{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 38px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.faq-box{
+    height: 50px;
+    width: 50%;
+    background: black;
+    color: white;
+    align-items: center;
+    
+    
+}
+.faq-box:hover
+{
+    background-color: grey;
+}
+.faq-box
+{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(70, 69, 69);
+    padding:24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.faq-box>svg
+{
+    color: #fff;
+}
+.lastline
+{
+    align-items: center;
+    text-align: center;
+    
+}
+.email-signup
+{
+    max-width: 600px;
+    margin: 20px auto 60px;
+    text-align: center;
+}
+
+.footer
+{
+    padding:50px 15% 10px;
+    border-top: 6px solid #333;
+    color:#777;
+}
+.footer>h2
+{
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.footer>.col
+{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    display: block;
+    justify-content: space-between;
+   
+}
+.footer>.row
+{
+    justify-content:space-around;
+    align-items: flex-start;
+    padding: 10px;
+}
+.footer>.col>a
+{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;    
+}
+.language-btn
+{
+    color: white;
+    background-color:transparent;
+    margin-left: 78px;
+    border-radius: 3px;
+    border: 1px solid white;
+    padding: 3px;
+}
